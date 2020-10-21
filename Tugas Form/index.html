@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1 class="judul">Web Pendaftaran Kelas Programming</h1>
+		<p class="deskripsi">Kelas pemrograman web, mobile dan desktop lengkap berbahasa Indonesia.</p>
+	</header>
+	
+	<div class="wrap">
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#regis">Form Registrasi</a>
+				</li>
+				<li>
+					<a href="#kontak">Alamat</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<aside class="sidebar">
+			<div class="widget">
+				<h2>Registrasi</h2>
+				<p>Selamat datang! Situs ini menyediakan kelas pemrograman web, mobile & desktop.</p>
+			</div>
+			<div class="widget" id="list">
+				<ul>
+				<h2>List bahasa pemrograman</h2>
+					<li>HTML, CSS, Javascript</li>
+					<li>Python</li>
+					<li>PHP</li>
+					<li>C, C++, C#</li>
+					<li>Java, Kotlin</li>
+					<li>Swift</li>
+				</ul>
+			</div>
+		</aside>
+ 
+		<div class="web">
+			<div class="conteudo">
+				<img src="img/gbr.png">
+				<div class="post-info">
+					Image by <b><cite>Codepolitan</cite></b><br>
+				</div>
+				<hr id="regis">
+				<h2 align="center">Form Registrasi Kelas Programming</h2>
+				<hr>
+				<form align="center">
+					Nama<br><input type="text" class="form-content" name="nama"><br>
+					<div class="form-border"></div><br>
+					Email<br><input type="email" class="form-content" name="email"><br>
+					<div class="form-border"></div><br>
+					Password<br><input type="password" class="form-content" name="pw"><br>
+					<div class="form-border"></div><br>
+					Jenis Kelamin:<br> 
+					<input type="radio" name="jk" value="Laki-laki">Laki-laki
+					<input type="radio" name="jk" value="Perempuan">Perempuan<br><br>
+					Kelas yang ingin dipilih:<br>
+					<input type="checkbox" name="web" style="text-align: left; position: absolute; left: 28%;">
+					<span style="position: absolute; left: 30%">Web Programming (HTML, CSS, Javascript)</span><br>
+					<input type="checkbox" name="mobile" style="text-align: left; position: absolute; left: 28%;">
+					<span style="position: absolute; left: 30%">Mobile Programming (Android/iOS)</span><br>
+					<input type="checkbox" name="desktop" style="text-align: left; position: absolute; left: 28%;">
+					<span style="position: absolute; left: 30%">Desktop Programming</span><br><br>	
+					Motivasi mengikuti kelas:<br>
+					<textarea id="motivasi" name="motivasi" rows="4" cols="45"></textarea><br>
+					<input id="submit-btn" type="submit" name="submit" value="Daftar!">
+				</form>				
+			</div>
+		</div>
+	</div>
+
+	<div class="footer" id="kontak">
+		<h3>Alamat Kami:</h3>
+		<div class="addr">
+			<address>
+				Kampus Informatika Udayana<br>Jl. Raya Kampus Unud Bukit Jimbaran <br>Jimbaran, Badung, Bali 80361
+			</address>
+		</div>
+	</div>
+</body>
+</html>
